@@ -94,3 +94,11 @@ todoItemsList.addEventListener('click', function(event) {
     deleteTodo(event.target.parentElement.getAttribute('data-key'));
   }
 });
+
+/**********************************time */
+window.onload = time();
+function time() {
+  var d = new Date();
+  var n = d.toDateString();
+  document.getElementById("demo").innerHTML = n;
+}
