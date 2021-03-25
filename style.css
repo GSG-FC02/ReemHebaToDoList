@@ -4,8 +4,10 @@
   }
   body {
     background: linear-gradient(to bottom, #f1b1d785 0%, #8f8fec86 100%);
+    background-repeat: no-repeat;
     text-align: center;
   }
+   /* the puplic style for the app*/
   main {
     width: 375px;
     height: 667px;
@@ -22,6 +24,8 @@
     margin: auto;
     color: rgb(78, 76, 76);
   }
+  
+  /* header style ----------------------- */
   .toDo-header {
     margin-top: 30px;
   }
@@ -49,6 +53,7 @@
     margin: 10px;
     font-size: 13px;
   }
+   /* the input style and add button ------------ */
   #add-plan {
     width: 320px;
     height: 45px;
@@ -86,6 +91,8 @@
     font-size: 22px;
     cursor: pointer;
   }
+  
+  /* the li list style  --------------------- */
   #plan-list {
     width: 340px;
     height: 200px;
@@ -94,14 +101,11 @@
     position: relative;
     overflow: scroll;
   }
-  
-  /**********************************************/
   ul {
     margin: auto;
     padding: 0;
   }
   ul li {
-    cursor: pointer;
     position: relative;
     margin-bottom: 6px;
     width: 310px;
@@ -138,12 +142,15 @@
     background-color: #ecaad1;
     color: rgb(78, 76, 76);
     font-size: 15px;
+    cursor: pointer;
   }
   
   .close:hover {
     background-color: rgb(233, 76, 76);
     color: white;
   }
+
+  /* scroll bar style --------------------------------------*/
   
   ::-webkit-scrollbar {
     width: 7px;
